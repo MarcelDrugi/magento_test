@@ -9,7 +9,7 @@ services:
       - ./conf/app/etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
       - ./src:/var/www/html
   phpfpm:
-    image: pmazurg4n/dockerhub:magento_task_v7
+    image: pmazurg4n/dockerhub:magento_task_v8
     volumes:
       - ./src:/var/www/html
   mysql:
